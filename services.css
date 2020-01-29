@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* img {
+  display: block;
+} */
+
+ header {
+   background: linear-gradient(135deg,#4B2BB7 35%, #FA6797) ;
+   height: 80vh;
+   width: 100vw;
+ }
+
+ .header-wrapper {
+   width: 80%;
+   margin: 0 auto;
+ }
+
+ nav {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .main-nav {
+   margin: none;
+   display: flex;
+ }
+
+ .main-nav a {
+   color: white;
+   padding-left: 3rem;
+ }
+
+ .intro {
+   border: 1px white solid;
+   display: grid;
+   width: 47%;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto, auto, auto;
+   gap: 1rem;
+   float: left;
+   margin-top: 55px;
+ }
+
+ .intro h1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  color: #FA6797;
+  margin: auto 0;
+ }
+
+ .intro h2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  font-size: 2.625rem;
+  font-weight: 700;
+  color: #FFF;
+  line-height: 2.625rem;
+  margin: auto 0;
+ }
+
+ .intro p {
+  grid-column: 1;
+  grid-row: 3;
+  color: white;
+  margin: auto 0;
+  font-size: 1.2rem;
+ }
+
+ .cards {
+   float: right;
+  display: grid;
+  grid-template-columns: 90px;
+  grid-template-rows: 50px;
+    margin-top: 80px;
+ }
+
+
+ .three-months {
+   grid-column: 1 / 2;
+   grid-row: 1 / 2;
+ }
+
+ .six-months {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+ .six-months,
+ .three-months {
+   height: 200px;
+ } 
+ /**/
+
+ /* .six-months {
+  position: absolute;
+  right: 0;
+ }
+
+ .three-months {
+  position: absolute;
+  top: 62px;
+  left: 13px;
+ }  */
+
+
+ /* .six-months {
+  grid-column: 3;
+  grid-row: 1;
+ } */
+
+
+
+/* 
+nav {
+  height: 100vh;
+  width: 100vw;
+  background: #4B2BB7;
+} */
+
+/* .hero-section {
+  background-color: #4B2BB7;
+  linear-gradient(rgba(204, 102, 255, 0.3), rgba(204, 102, 255, 0.3)), url("../assets/mountainContrast.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  } */
+
+/* .title {
+  text-align: center;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Oleo Script', cursive;
+  font-size: 4rem;
+  }  */

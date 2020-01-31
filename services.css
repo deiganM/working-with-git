@@ -115,13 +115,16 @@ body {
   /****** MAIN ******/
 
   main {
-    height: 100vh;
     width: 65%;
     margin: 0 auto;
   }
 
   .title-squares {
     margin-top: 155px;
+  }
+
+  .squareOne p {
+    color: #9f2dad;
   }
 
   .squares {
@@ -138,5 +141,24 @@ body {
 
   .moreInfo {
     margin-top: 75px;
+  }
+
+/****** FOOTER ******/
+
+  footer {
+    background: #4B2BB7;
+    height: 120px;
+    width: 100vw;
+    margin-top: 155px;
+    display: flex;
+  }
+
+  .footer-wrapper {
+    width: 80%;
+   margin: auto;
+  }
+
+  footer p {
+    color: white;
   }
   

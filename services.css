@@ -1,60 +1,3 @@
-# workingWithGit
-SAIT Github project
-
-# DON'T FORGET TO DOWNLOAD THE SVG'S
-
-# IF YOU NEED ANY HELP PLEASE CALL OR TEXT ME, DEIGAN MILLIKIN 403-404-9733
-
-## HEADER CODE
-
-<!DOCTYPE html>
-<html lang="en">
-  
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="services.css">
-  <title>Document</title>
-</head>
-
-<body>
-
-  <header>
-
-    <div class="header-wrapper">
-
-      <nav>
-        <img src="logo.svg" class="header-logo" alt="Trackers company logo">
-        <ul class="main-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a href="#"></li>
-          <li><a href="#">Services</a href="#"></li>
-        </ul>
-      </nav>
-
-      <!-- CHANGE THIS PART TO WHATEVER IS ON YOUR PAGE -->
-      <div class="intro">
-        <h1>PRODUCTS</h1>
-        <h2>Choose<br> your product</h2>
-        <p>A complete solution to track all the expenses bared by your pocket and manage your personal finance.</p>
-      </div>
-
-      <div class="cards">
-        <img src="3month.svg" class="three-months" alt="3 month status card">
-        <img src="6month.svg" class="six-months" alt="6 month status card">
-      </div>
-
-    </div>
-
-  </header>
-
-</body>
-</html>
-
-
-
-
  /****** FONTS ******/
  
  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
@@ -168,3 +111,54 @@ body {
  } 
  
   /********************************** END OF HEADER **********************************************/
+
+  /****** MAIN ******/
+
+  main {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .title-squares {
+    margin-top: 155px;
+  }
+
+  .squareOne p {
+    color: #9f2dad;
+  }
+
+  .squares {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .square {
+    height: 200px;
+    width: 200px;
+    background: #9f2dad;
+    border-radius: 5px;
+  }
+
+  .moreInfo {
+    margin-top: 75px;
+  }
+
+/****** FOOTER ******/
+
+  footer {
+    background: #4B2BB7;
+    height: 120px;
+    width: 100vw;
+    margin-top: 155px;
+    display: flex;
+  }
+
+  .footer-wrapper {
+    width: 80%;
+   margin: auto;
+  }
+
+  footer p {
+    color: white;
+  }
+  

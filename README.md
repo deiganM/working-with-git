@@ -1,3 +1,0 @@
-# workingWithGit
-SAIT Github project
-
